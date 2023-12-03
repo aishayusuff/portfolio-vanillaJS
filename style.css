@@ -60,3 +60,27 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color: #3f6380;
 }
+
+/* Hamburger menu */
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    height: 0.2rem;
+    width: 2rem;
+    margin-top: 0.4rem;
+    background-color: #14293C;
+    transition: all 0.4s ease-in-out;
+}
