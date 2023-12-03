@@ -7,4 +7,26 @@
         display: flex;
         justify-content: space-around;
     }
+
+    .overlay.blur:after {
+        content: "";
+        position: fixed;
+        z-index: -1;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        background: rgba(0, 0, 0, 0.7)
+    }
+
+    .hamburger-menu-links{
+        z-index: 1000;
+        position: fixed;
+        top: 50%; /* Center the menu vertically */
+        left: 50%; /* Center the menu horizontally */
+        transform: translate(-50%, -50%); /* Adjust to center the menu */
+        margin: 0;
+        padding: 0;
+    }
+    
 }
