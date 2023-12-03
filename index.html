@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="mediaqueries.css"/>
-        <script type="module" src="script.js"></script>
+        <script defer src="js/script.js" ></script>
     </head>
     <body>
-        <header>
-            Aisha Yusuff
-        </header>
+        <nav id="desktop-nav">
+            <div class="logo">Aishat Yusuff</div>
+            <div>
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#experience">Experience</a></li>
+                    <li class="nav-link"><a href="#projects">Projects</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <nav id="hamburger-nav">
+            <div class="logo">Aishat Yusuff</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="hamburger-menu-links">
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#experience">Experience</a></li>
+                    <li class="nav-link"><a href="#projects">Projects</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <!-- for blur effect when hamburger is click -->
+        <div class="overlay"></div>
+            
         <footer>
 
         </footer>
