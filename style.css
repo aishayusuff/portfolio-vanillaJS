@@ -139,3 +139,61 @@ nav {
 }
 
 
+/* section */
+
+section {
+    height: 95vh;
+    padding: 5vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* profile */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.section-pic {
+    display: flex;
+    height: 17rem;
+    width: 17rem;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 500;
+}
+
+.section__text__p1 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.fullname {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
