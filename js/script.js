@@ -12,10 +12,6 @@ document
     overlay.classList.toggle("blur");
   });
 
-if(hamburgerIcon.classList.contains(".open")){
-
-}
-
 if (menu.classList.contains(".open")) {
   smoothScrollToTop();
 }
