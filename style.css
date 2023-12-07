@@ -56,12 +56,12 @@ nav {
     margin: 1.3rem;
 }
 
-a {
+.nav-links a {
     text-decoration: none;
     color: #14293C;
 }
 
-a:hover {
+.nav-links a:hover {
     color: #3f6380;
     text-decoration: underline;
     text-underline-offset: 1rem;
