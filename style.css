@@ -185,6 +185,19 @@ section {
     font-size: 5rem;
     text-align: center;
 }
+.section__text__p2 {
+    font-size: 2rem;
+}
+
+.button-container {
+    margin-top: 1rem;
+}
+
+.button-container a {
+    text-decoration: none;
+    padding: 1rem 0.5rem;
+    border-radius: 2rem; 
+}
 
 #socials-container {
     display: flex;
