@@ -10,6 +10,7 @@ body {
     color: #14293C;
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 
@@ -88,6 +89,7 @@ nav {
     width: 1.7rem;
     margin-top: 0.4rem;
     background-color: #14293C;
+    z-index: 2;
     transition: all 0.3s ease-in-out;
 }
 
@@ -142,8 +144,6 @@ nav {
 /* section */
 
 section {
-    height: 95vh;
-    padding: 5vh;
     margin: 0 10rem;
     min-height: fit-content;
     box-sizing: border-box;
@@ -151,46 +151,83 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
 }
 
 /* profile */
-#profile {
-    display: flex;
-    justify-content: center;
-    gap: 20rem;
-}
 
 .section-pic {
-    display: flex;
-    height: 17rem;
-    width: 17rem;
-    margin: auto 0;
+    width: 30%;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.section-pic img {
+    width: 100%;
 }
 
 .section__text {
-    align-self: center;
     text-align: center;
+    flex-grow: 1.5;
 }
 
 .section__text p {
     font-weight: 500;
+    color: #3f6380;
 }
 
 .section__text__p1 {
     font-size: 1rem;
-    margin-bottom: 0.2rem;
 }
 
 .fullname {
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
+}
+.section__text__p2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 1rem;
+    border: #14293C 0.1rem solid;
+    border-radius: 2rem;
+    color: #14293C;
+    transition: all 0.2s ease; 
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #14293C;
+    border: #ffffff 0.1rem solid;
+}
+
+.btn-color-1 .btn-color-2 {
+    
+}
+
+.btn-color-1 .btn-color-2:hover {
+    background: black;
+    color: #3f6380;
 }
 
 #socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .icon {
