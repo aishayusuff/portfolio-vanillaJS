@@ -36,6 +36,16 @@
     
 }
 
-@media screen and (max-width: 767px) {
- 
+@media screen and (max-width: 770px) {
+ .name {
+    font-size: 2rem;
+ }
+
+ .section__text__p2 {
+    font-size: 1.25rem;
+ }
+
+ .logo {
+    width: 5rem;
+ }
 }
