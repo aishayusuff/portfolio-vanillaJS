@@ -1,9 +1,8 @@
-//Hamburger menu
-
 const menu = document.querySelector(".hamburger-menu-links");
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const overlay = document.querySelector(".overlay");
 
+//Hamburger menu
 document
   .querySelector(".hamburger-menu")
   .addEventListener("click", function () {
@@ -22,3 +21,5 @@ const smoothScrollToTop = function () {
     behavior: "smooth",
   });
 };
+
+

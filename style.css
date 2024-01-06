@@ -144,7 +144,7 @@ nav {
 /* section */
 
 section {
-    padding-top: 10vh;
+    padding-top: 7vh;
     margin: 0 10rem;
     min-height: fit-content;
     box-sizing: border-box;
@@ -185,10 +185,11 @@ section {
     text-align: center;
 }
 
-.title {
+.name {
     font-size: 4rem;
     text-align: center;
 }
+
 .section__text__p2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -243,6 +244,11 @@ section {
     position: relative;
 }
 
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
 .about-container {
     display: flex;
     flex-direction: column;
@@ -254,7 +260,7 @@ section {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin: 2rem 0;
+    margin: 0.5rem 0;
 }
 
 .details-container {
