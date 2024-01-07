@@ -53,7 +53,7 @@
     }
 
  .section-pic {
-    width: 70%;
+    width: 50%;
     margin-bottom: 1rem;
  }
  
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 600px) {
     .section-pic {
-        width: 100%;
+        width: 50%;
         margin-bottom: 1rem;
      }
 
