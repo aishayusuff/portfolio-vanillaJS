@@ -33,19 +33,73 @@
     #profile {
         display: block;
     }
-    
+
+    .section-pic {
+        width: 50%;
+        margin-bottom: 1rem;
+     }
+
+     .arrow {
+        display: none;
+     }    
+   
 }
 
 @media screen and (max-width: 770px) {
+
+   section {
+      /* setting left/right margin to 5% of screenwidth */
+      margin: 0 5%;
+    }
+
+ .section-pic {
+    width: 70%;
+    margin-bottom: 1rem;
+ }
+ 
  .name {
     font-size: 2rem;
  }
 
+ .title {
+    font-size: 1.75rem;
+ }
+
  .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
  }
 
  .logo {
     width: 5rem;
  }
+
+}
+
+@media screen and (max-width: 600px) {
+    .section-pic {
+        width: 100%;
+        margin-bottom: 1rem;
+     }
+
+     .btn {
+        padding: 0.5rem;
+        font-size: 0.5rem;
+     }
+
+    .name {
+        font-size: 1.5rem;
+     }
+
+    .section__text__p1 {
+        font-size: 0.6rem;
+     }
+
+     .about-details-containers {
+        flex-wrap: wrap;
+     }
+
+     .text-container {
+      text-align: justify;
+   }
+    
 }
