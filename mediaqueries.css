@@ -5,8 +5,13 @@
     
     #hamburger-nav {
         display: flex;
-        justify-content: space-around;
-        margin: 0.5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+
+    .logo {
+      align-self: center;
     }
 
     .overlay.blur:after {
@@ -33,7 +38,7 @@
     #profile {
         display: block;
         padding-top: 3rem;
-
+        margin-bottom: 20%;
     }
 
     .section-pic {
