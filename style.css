@@ -146,6 +146,7 @@ nav {
 section {
     padding-top: 7vh;
     margin: 0 8rem;
+    height: 95vh;
     min-height: fit-content;
     box-sizing: border-box;
 }
@@ -283,17 +284,12 @@ section {
 
 /* Experience */
 
+#experience {
+    position: relative;
+}
 .experience-details-containers {
 
 }
-
-/* .experience-container {
-    margin: 2rem 0;
-    padding: 3rem;
-    border: #14293C 0.1rem solid;
-    border-radius: 1.5rem;
-    flex: 1;
-} */
 
 .experience-container h2 {
     margin-bottom: 2rem;
