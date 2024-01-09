@@ -101,12 +101,16 @@
         font-size: 0.6rem;
      }
 
-     .about-details-containers {
-        flex-wrap: wrap;
-     }
+   .details-containers {
+      flex-wrap: wrap;
+   }
 
-     .text-container {
+   .text-container {
       text-align: justify;
+   }
+
+   article {
+      font-size: 1rem;
    }
     
 }
