@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
     .section-pic {
         width: 50%;
         margin-bottom: 1rem;
@@ -101,12 +101,20 @@
         font-size: 0.6rem;
      }
 
-     .about-details-containers {
-        flex-wrap: wrap;
-     }
+   .details-containers {
+      flex-wrap: wrap;
+   }
 
-     .text-container {
+   .text-container {
       text-align: justify;
+   }
+
+   article {
+      font-size: 1rem;
+   }
+
+   .experience-details-containers {
+      display: block;
    }
     
 }
