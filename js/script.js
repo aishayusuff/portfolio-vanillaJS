@@ -22,5 +22,23 @@ const smoothScrollToTop = function () {
   });
 };
 
+//Using Arrows to scroll sections into view
 
-//Arrow scroll
+const handlesArrowClick = function(e) {
+ const isArrowImg = e.target.tagName === "IMG" && e.target.classList.contains("arrow");
+ 
+ //Guard clause
+ if (!isArrowImg) {
+  return;
+ }
+ 
+ //Gets section
+ const section = document.getElementById(`${e.target.dataset.view}`)
+ section.scrollIntoView({
+  behavior: 'smooth'
+ });
+
+}
+
+// handlesArrowClick()
+document.body.addEventListener('click', handlesArrowClick);
