@@ -220,9 +220,6 @@ section {
     border: #ffffff 0.1rem solid;
 }
 
-.btn-color-1 .btn-color-2 {
-    
-}
 
 .btn-color-1 .btn-color-2:hover {
     background: black;
@@ -321,6 +318,15 @@ article h3 {
     margin-left: 5%;
 }
 
+
+/* Projects */
+#projects {
+    position: relative;
+}
+
+.project-img {
+    width: 15rem;
+}
 
 .arrow {
     position: absolute;
