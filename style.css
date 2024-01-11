@@ -287,25 +287,38 @@ section {
 #experience {
     position: relative;
 }
-.experience-details-containers {
 
+.experience-sub-title {
+    color: #3f6380;
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    font-weight: 600; 
 }
 
-.experience-container h2 {
-    margin-bottom: 2rem;
+.experience-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0;
 }
 
 .article-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
     justify-content: space-around;
-    gap: 2rem;
+    align-items: self-start;
 }
 
 article {
     display: flex;
-    justify-content: space-around;
+    width: 11rem;
+    /* justify-content:space-between */
+}
+
+article h3 {
+    margin-left: 5%;
 }
 
 
