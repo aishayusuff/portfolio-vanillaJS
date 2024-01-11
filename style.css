@@ -146,6 +146,7 @@ nav {
 section {
     padding-top: 7vh;
     margin: 0 8rem;
+    height: 95vh;
     min-height: fit-content;
     box-sizing: border-box;
 }
@@ -283,33 +284,41 @@ section {
 
 /* Experience */
 
-.experience-details-containers {
-
+#experience {
+    position: relative;
 }
 
-/* .experience-container {
-    margin: 2rem 0;
-    padding: 3rem;
-    border: #14293C 0.1rem solid;
-    border-radius: 1.5rem;
-    flex: 1;
-} */
-
-.experience-container h2 {
+.experience-sub-title {
+    color: #3f6380;
     margin-bottom: 2rem;
+    font-size: 1.75rem;
+    font-weight: 600; 
+}
+
+.experience-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% 0;
 }
 
 .article-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
     justify-content: space-around;
-    gap: 2rem;
+    align-items: self-start;
 }
 
 article {
     display: flex;
-    justify-content: space-around;
+    width: 11rem;
+    /* justify-content:space-between */
+}
+
+article h3 {
+    margin-left: 5%;
 }
 
 
