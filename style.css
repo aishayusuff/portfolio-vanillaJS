@@ -335,3 +335,9 @@ article h3 {
     bottom: 2.5rem;
 }
 
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 1rem 0;
+}
