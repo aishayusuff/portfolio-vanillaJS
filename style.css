@@ -220,9 +220,6 @@ section {
     border: #ffffff 0.1rem solid;
 }
 
-.btn-color-1 .btn-color-2 {
-    
-}
 
 .btn-color-1 .btn-color-2:hover {
     background: black;
@@ -322,6 +319,15 @@ article h3 {
 }
 
 
+/* Projects */
+#projects {
+    position: relative;
+}
+
+.project-img {
+    width: 15rem;
+}
+
 .arrow {
     position: absolute;
     cursor: pointer;
@@ -329,3 +335,9 @@ article h3 {
     bottom: 2.5rem;
 }
 
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 1rem 0;
+}
