@@ -323,7 +323,6 @@ article h3 {
 #projects {
     position: relative;
     margin-bottom: 25%;
-    margin-top: 20%;
 }
 
 .projects-containers {
@@ -368,6 +367,22 @@ article h3 {
     color: gray;
     border: gray 0.1rem solid;
     pointer-events: none;
+}
+
+/* Contact */
+#contact {
+    height: fit-content;
+    margin-bottom: 5%;
+}
+
+.contact-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 0.1rem #14293C solid;
+    border-radius: 3rem;
 }
 
 .arrow {
