@@ -323,6 +323,7 @@ article h3 {
 #projects {
     position: relative;
     margin-bottom: 25%;
+    margin-top: 20%;
 }
 
 .projects-containers {
@@ -381,4 +382,10 @@ article h3 {
 footer {
     text-align: center;
     margin: 1rem 0;
+    color: gray;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3f6380
 }
