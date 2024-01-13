@@ -322,10 +322,51 @@ article h3 {
 /* Projects */
 #projects {
     position: relative;
+    margin-bottom: 25%;
+}
+
+.projects-containers {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+   
+}
+
+.project-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img-container:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+    border: 2px solid #3f6380 ;
+    border-radius: 2rem;
 }
 
 .project-img {
-    width: 15rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.project-name {
+    margin: 1rem;
+    color: #14293C;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.back-end {
+    color: gray;
+    border: gray 0.1rem solid;
+    pointer-events: none;
 }
 
 .arrow {
