@@ -256,6 +256,11 @@ section {
     align-items: center;
 }
 
+span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .details-containers {
     display: flex;
     justify-content: space-between;
@@ -278,6 +283,7 @@ section {
 
 .text-container {
     display: block;
+    text-align: justify;
 }
 
 /* Experience */
