@@ -56,7 +56,14 @@
 
      #projects {
       margin-top: 40%;
+      height: 60rem;
      }
+
+     .projects-containers {
+      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr) 
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -85,6 +92,10 @@
 
  .logo {
     width: 5rem;
+ }
+
+ .contact-info-container {
+   font-size: 0.75rem;
  }
 
 }
@@ -120,16 +131,22 @@
       font-size: 1rem;
    }
 
+   #experience {
+      height: 40rem;
+   }
+
    #projects {
-      margin-top: 60%;
-      height: 80%;
+      height: 65%;
    }
 
    .projects-containers {
       flex-wrap: wrap;
       display: grid;
-      grid-template-columns: repeat(1, 1fr)
-     
+      grid-template-columns: repeat(1, 1fr) 
+  }
+
+  .contact-containers {
+    width: 20rem;
   }
 
    footer {
